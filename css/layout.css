@@ -1,7 +1,53 @@
 .main-content {
+  width: 100%;
   max-width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  grid-template-rows: repeat(auto-fit, minmax(240px, 1fr));
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+.flex_cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.flex_cont > div {
+  flex: 1 1 auto;
+  border: 1px solid #b0c4de;
+  border-radius: 6px;
+  text-align: center;
+  margin: 30px 70px;
+  outline: none;
+}
+#click {
+  background-color: #aebcce;
+  font-weight: 600;
+}
+#hide {
+  background-color: #aebcce;
+  font-weight: 600;
+}
+#click:hover {
+  background-color: #97a9c0;
+  transition-duration: 0.9s;
+  cursor: pointer;
+}
+#hide:hover {
+  background-color: #97a9c0;
+  transition-duration: 0.9s;
+  cursor: pointer;
+}
+.quotes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  text-align: center;
+  color: #adb6b9;
+  font-size: 24px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.quote {
+  flex-basis: 720px;
 }
