@@ -7,7 +7,7 @@ body {
   font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 0;
-  background-color: rgb(237, 239, 240);
+  background-color: #edeff0;
 }
 a {
   color: #278da4;
@@ -31,4 +31,24 @@ p {
   color: #4caf72;
   margin: 0;
   line-height: 1.25;
+}
+.btn {
+  font-size: 0.85em;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.75em 1.5em;
+  background-color: #39abcd;
+  border-radius: 0.35em;
+  display: block;
+}
+.material-icons {
+  color: #42b4d6;
+  font-size: 2.25em;
+}
+h1 {
+  margin-top: 12%;
+}
+.l {
+  text-align: center;
 }
