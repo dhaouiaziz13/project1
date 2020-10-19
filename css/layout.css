@@ -23,7 +23,7 @@
   font-family: "Work Sans", sans-serif;
 }
 .box-wrap:hover .box {
-  filter: blur(3px);
+  filter: blur(1px);
   opacity: 0.5;
   transform: scale(0.98);
   box-shadow: none;
