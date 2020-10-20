@@ -7,7 +7,9 @@ body {
   font-family: "Raleway", sans-serif;
   text-align: center;
   margin: 0;
-  background-color: rgb(237, 239, 240);
+  background-image: url("../new.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 a {
   color: #278da4;
@@ -26,6 +28,7 @@ p {
   border-radius: 0.25em;
   color: #adb6b9;
   font-weight: bold;
+  background-color: transparent;
 }
 .card h1 {
   font-family: "Bree Serif", serif;

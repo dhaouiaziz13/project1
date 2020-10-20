@@ -16,7 +16,7 @@ $("a").mouseleave(() => {
   $("a").css({ "background-color": "#278da4", "transition-duration": "0.6s" });
 });
 
-//you can click on the show button after 4 seconds when the quote is completely shown
+//you can click on the show button after 2 seconds when the quote is completely shown
 
 $(".quote").html(fav_quote).hide().fadeIn(3000);
 
